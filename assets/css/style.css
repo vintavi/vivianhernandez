@@ -1,0 +1,109 @@
+@import url("../fonts/meltixlight/stylesheet.css");
+
+html, body {
+	min-width: 800px;
+}
+body{
+	margin: 0;
+	font-family: "meltixlight";
+}
+
+header {
+	padding: 1em;
+	background-color: black;
+	font-family: "meltixlight";
+}
+
+h1{
+	font-family: "meltixlight";
+	height: 50px;
+	font-size: 2em;
+	color: white;
+	margin: 0;
+}
+
+img.mySlides {
+	width: 800px;
+	img-size: 20px;
+	padding: 0;
+	margin-top: 5em;
+	margin-bottom: 0em;
+	margin-right: 0;
+	margin-left: 10em;
+}
+
+img.back{
+	display: block;
+	margin-top: 0em;
+	margin-bottom: 0em;
+	margin-right: 0;
+	margin-left: 0em;
+}
+
+img.next{
+display: block;
+margin-top: 0em;
+margin-bottom: 0em;
+margin-right: 70;
+margin-left: 0em;
+}
+
+a, a:visited{
+	text-decoration: none;
+	color: white;
+}
+a:hover{
+	color: #ABEBC6;
+	text-decoration: line-through;
+}
+nav ul{
+	list-style: none;
+}
+nav.menu{
+	background-color: black;
+	background-size: 2em
+	font-size: 2em;
+	font-family: "arial";
+	float: right;
+		
+}
+nav.menu li{
+	display: inline;
+	margin-right: 1em;
+}
+nav.timeline {
+	background-size: 2px;
+	font-size: 1em;
+	font-family: "arial";
+	color: #E8F8F5
+	display: inline;
+}
+
+nav.timeline ul{
+	padding: 0;
+	text-align: center;
+	margin-top: 10em;
+	margin-bottom: 10em;
+	margin-right: 0;
+	margin-left: 0;
+}
+nav.timeline li {
+	display: inline;
+	padding: 1em;
+	background-color: gray;
+}
+nav.underline li {
+	color:black;
+	background-color: black;
+	background-size: 2em;
+	margin-right: 0;
+	padding:0;
+}
+
+p{
+	color:black;
+	size: 10em;
+}
+
+
+
