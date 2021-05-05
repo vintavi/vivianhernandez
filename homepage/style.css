@@ -76,6 +76,7 @@ right:45px;
 
 .dataContact p{
   position: absolute;
+  display: block;
   float:right;
   top: 200px;
   font-family: "Montserrat";
@@ -85,5 +86,5 @@ right:45px;
 }
 .videoProject{
   padding-left: 30px;
-  padding-right: 30px; 
+  padding-right: 30px;
 }
