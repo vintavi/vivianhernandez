@@ -41,23 +41,23 @@
 <!-- NFT-->
 <!DOCTYPE html>
 
-
     <script src="https://aframe.io/releases/1.0.0/aframe.min.js"></script>
     <!-- we import arjs version without NFT but with marker + location based support -->
     <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
     <body style="margin : 0px; overflow: hidden;">
         <a-scene embedded arjs>
+
           <a-box position="-1 0.5 -3" rotation="0 45 0" color="#4CC3D9"></a-box>
           <a-sphere position="0 1.25 -5" radius="1.25" color="#EF2D5E"></a-sphere>
      <a-cylinder position="1 0.75 -3" radius="0.5" height="1.5" color="#FFC65D"></a-cylinder>
             <a-entity
-            position="0 0 -4"
+            position="0 0 0"
             rotation="0 0 0"
-            scale="0.04 0.04 0.04"
+            scale="0.01 0.01 0.01"
             gltf-model="../image-tracking/nft/trex/scene.gltf"
             ></a-entity>
 
-      <a-entity camera position="0 0 0"
+      <a-entity camera position="1 1 1"
        look-controls pointerLockEnabled>
 
         </a-scene>
